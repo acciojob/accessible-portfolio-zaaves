@@ -1,2 +1,31 @@
 
 /* Your CSS Code here. */
+body{
+	background-color: whitesmoke;
+}
+nav ul{
+	display: flex;
+	gap: 22px;
+	justify-content: center;
+	background-color: cadetblue;
+	padding: 12px;
+	border-radius: 12px;
+	font-family: sans-serif;
+	font-weight: bold;
+	list-style-type: none;
+}
+nav ul{
+	text-decoration: none;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 26px;
+}
+header h1{
+	text-align: center;
+}
+#about{
+	display: flex;
+	flex-direction: column;
+}
